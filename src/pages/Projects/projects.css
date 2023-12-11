@@ -1,0 +1,14 @@
+.projects {     
+        flex:6;
+        background-color: #f4f1f1;
+        padding:10px 0px;
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:calc(100vh - 50px);
+    }
+    .heading{
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 8px;
+    }

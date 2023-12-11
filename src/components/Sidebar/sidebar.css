@@ -1,0 +1,39 @@
+.sideBar{
+    flex:1;
+    height:calc(100vh - 50px);
+    position:sticky;
+    top:50px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.sidebar-wrapper{
+    
+}
+
+.menu{
+    list-style: none;
+    padding:0px 4px;
+}
+.listitem{
+    margin: 10px 0px;
+    border: 1px solid lightgrey;
+    padding: 6px;
+    color: grey;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+.listitem:hover,.listitem:active {
+    background-color: black;
+    color:white;
+}
+.dashboard{
+    border: 2px solid lightgrey;
+
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}

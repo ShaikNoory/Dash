@@ -1,0 +1,49 @@
+.analytics{
+    flex:6;
+    background-color: #f4f1f1;
+    padding:10px 0px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.heading{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 8px;
+}
+.container{
+    display: flex;
+    width:100%;
+    overflow: hidden;
+}
+.section1{
+    flex:5;
+    display: flex;
+    flex-direction: column;
+}
+.section2{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.card-section{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+}
+.chart-section{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.charts-section1{
+    display: flex;
+}
+.charts-section2{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
