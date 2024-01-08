@@ -35,9 +35,11 @@ const Charts = ({data,dataKey,month,showAllLines,multiLineChartHeight}) => {
         ) : (
           <Line type="monotone" dataKey={dataKey} stroke={`#${Math.floor(Math.random()*16777215).toString(16)}`} />
         )}
+        
       </LineChart>
         </div>
   )
+  
 }
 
 export default Charts
